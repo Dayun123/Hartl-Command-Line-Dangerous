@@ -34,3 +34,25 @@ echo "another line of words" >> file_2.txt
 
 echo -e "\nrunning 'diff file_1.txt file_2.txt'\n"
 diff file_1.txt file_2.txt
+
+# Exercises:
+
+# 1. Using echo and >, make files called line_1.txt and line_2.txt and make them contain the first two lines of Sonnet 1, respectively.
+
+echo "From fairest creatures we desire increase," > line_1.txt
+echo "That thereby beauty's Rose might never die," > line_2.txt
+
+# 2. Replacate sonnet_1.txt by redirecting the contents of line_1.txt and then appending the contents of line_2.txt to a new file sonnet_1_copy.txt. Confirm using diff that this file is identical to sonnet_1.txt. (Diff should show nothing on the comparision, since there should be no differences).
+
+cat line_1.txt > sonnet_1_copy.txt
+cat line_2.txt >> sonnet_1_copy.txt
+echo -e "\nCalling 'diff sonnet_1.txt sonnet_1_copy.txt':\n"
+diff sonnet_1.txt sonnet_1_copy.txt
+
+# 3. Using 'cat', combine the contents of line_1.txt and line_2.txt in reverse order using a single command, yielding the file sonnet_1_reversed.txt.
+
+cat line_2.txt line_1.txt > sonnet_1_reversed.txt
+echo -e "\nsonnet_1.txt contains:\n"
+cat sonnet_1.txt
+echo -e "\nsonnet_1_reversed.txt contains:\n"
+cat sonnet_1_reversed.txt
