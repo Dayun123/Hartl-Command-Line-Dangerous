@@ -109,6 +109,36 @@ echo -n 'hello'
 # If you want to edit some text inside of a larger line on the command line, some systems allow you to press the 'option' key and click on the spot in the line you want to edit. I'm using a lenovo running Linux Mint, and there is no 'option' key so this doesn't work for me.
 
 
+# ************************** 1.5: Cleaning Up ***************************** #
+
+# Sometimes you will want to clear the terminal screen, there are two ways to do this.
+
+clear
+# ^L
+
+# When you are done with a terminal window, you can type 'exit' or ^D
+
+# ************************* 1.6 Summary ******************************** #
+
+# Exercises:
+
+# 1. Write a command to print the string [Use "man echo"].
+
+echo 'Use "man echo"'
+
+# 2. Run 'man sleep' and figure out how to get the terminal to sleep for 5 seconds
+
+man sleep
+sleep 5
+
+echo 'Finished sleeping for 5 seconds'
+
+# 3. Run the command to get the terminal to sleep for 5000 seconds, then cancel this command using ^C
+
+echo 'About to sleep for 5000 seconds'
+sleep 5000
+echo 'Whew, that was a nice nap!'
+
 
 
 
