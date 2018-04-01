@@ -92,7 +92,21 @@ man echo
 
 echo -n 'hello'
 
+# ************************* 1.4: Editing a Line ************************** #
 
+# There are several ways to edit a line on the command line.
+
+# Using the up arrow, you can scroll between previous commands
+# You can also use ctrl-P (^P) to scroll up through previous commands
+
+# To move around on the line itself, you can use the following key shortcuts:
+
+# ^A, move to beginning of line
+# ^E, move to end of line
+
+# To delete a line, ^U is the key command
+
+# If you want to edit some text inside of a larger line on the command line, some systems allow you to press the 'option' key and click on the spot in the line you want to edit. I'm using a lenovo running Linux Mint, and there is no 'option' key so this doesn't work for me.
 
 
 
