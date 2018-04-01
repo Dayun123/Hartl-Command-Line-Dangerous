@@ -44,6 +44,39 @@
 
 # *************************** 1.2: Our First Command ********************** #
 
+# The command 'echo' simply prints its argument to standard out, which is usually just the terminal screen.
+
+echo hello
+# => hello
+
+# We can also wrap the argument to echo in single or double quotes, as long as they match up.
+
+echo "hello"
+# => hello
+echo 'hello'
+# => hello
+
+# If you're quotes don't match, you will get stuck. Either type in the matching quote or hit ctrl-C  (^C) to cancel the command.
+
+# echo 'hello
+# hangs until you close the quote or hit ^C
+
+# Exercises:
+
+# 1. Write a command that prints out the string "hello, world". Do it in three different ways.
+
+echo hello
+echo 'hello'
+echo "hello"
+
+# 2. Type the command [echo 'hello] with the mismatched single quote and get yourself out of trouble.
+
+# echo 'hello # commented out so the shell script will run all the way through!
+
+# *********************** 1.3: Man Pages ******************************** #
+
+
+
 
 
 
