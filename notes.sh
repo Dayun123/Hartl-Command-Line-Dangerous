@@ -75,6 +75,23 @@ echo "hello"
 
 # *********************** 1.3: Man Pages ******************************** #
 
+# The shell comes with it's own program of manual pages known as 'man'. To learn about a shell command, type [man (command)]
+
+man echo
+
+# Exercsies:
+
+# 1. According to 'man', what are the official short and long options for 'echo' on my system?
+
+# Three short options, -n, -e, and -E, and two long, --help and --version.
+#   -n omits trailing newlines
+#   -e enables interpretation of backslash escape sequences
+#   -E disables interpretation of backkslash escape sequences, and is the default
+
+# 2. Print "Hello" to the screen with 'echo' but omit the trailing newline.
+
+echo -n 'hello'
+
 
 
 
